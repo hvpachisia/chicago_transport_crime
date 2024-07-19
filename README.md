@@ -1,48 +1,45 @@
 # Chicago Transport & Crime: An in-depth analysis
 
 ## Introduction
-Welcome to the Chicago Transport and Crime Analysis repository. This project brings together three comprehensive studies that analyze various aspects of transport and crime in Chicago. Each study is designed to showcase my different technical skills and tools, ranging from big data processing and machine learning to data visualization and interactive application development.
+Welcome to the Chicago Transport and Crime Analysis repository. This project brings together three comprehensive studies that analyze various aspects of transport and crime in Chicago. Each study is designed to showcase different technical skills and tools, ranging from big data processing and machine learning to data visualization and interactive application development.
 
 ## Projects Overview
 
 1. UChicago Lyft Program Analysis
 
-Objective: To evaluate the impact of UChicago's free Lyft program on student travel behavior.
+- **Objective**: To evaluate the impact of UChicago's free Lyft program on student travel behavior.
+- **Technologies Used**: GCP, PySpark, Big Data, Python.
+- **Key Skills**: Big data processing, exploratory data analysis (EDA), supervised and unsupervised machine learning.
 
-Technologies Used: Google Cloud Platform, PySpark, Python.
+2. Chicago Crime Analysis
 
-Key Skills: Big data processing, exploratory data analysis (EDA), supervised and unsupervised machine learning.
+- **Objective**: To analyze crime data across Chicago.
 
-2. UChicago Crime Analysis
+- **Technologies Used**: PySpark, AWS.
 
-Objective: To scrutinize crime in Hyde Park and campus transits.
+- **Key Skills**: Big data processing, cloud computing.
 
-Technologies Used: R, RShiny.
+3. Visualizing University of Chicago Crime and Campus Transportation
 
-Key Skills: R programming, data visualization, interactive application development.
+- **Objective**: To scrutinize crime in Hyde Park and campus transits.
 
-3. Chicago Crime Analysis
+- **Technologies Used**: R, Data Visualization, RShiny.
 
-Objective: To analyze crime data across Chicago.
+- **Key Skills**: R programming, data visualization, interactive application development.
 
-Technologies Used: PySpark, AWS.
-
-Key Skills: Big data processing, cloud computing.
 
 ## Repository Structure
 The repository is organized to reflect the various stages of data analysis and skills demonstrated across the projects. Below is an overview of the main directories and their contents:
 
-- data_collection/: Scripts and tools for collecting and processing raw data for all projects.
-- eda/: Exploratory data analysis notebooks and scripts.
-- ml/: Machine learning models and scripts for both supervised and unsupervised learning.
-- data_viz/: Data visualization scripts and RShiny applications.
-- final_outputs/: Final reports, summaries, and key visualizations from each project.
+- ``data_collection/``: Scripts and tools for collecting and processing raw data for all projects.
+- ``eda/``: Exploratory data analysis notebooks and scripts.
+- ``ml/``: Machine learning models and scripts for both supervised and unsupervised learning.
+- ``data_viz/``: Data visualization scripts and RShiny applications.
+- ``final_outputs/``: Final reports, summaries, and key visualizations from each project.
 
 # Detailed Project Descriptions
 
 ## The UChicago Lyft Ride Smart Program: Effects on Ridesharing
-
-By Harsh Vardhan Pachisia, Abe Burton, Ridhi Purohit, and Rohit Kandala
 
 ### Business/Research Question
 
@@ -194,4 +191,4 @@ library(leaflet.extras)
 library(rsconnect)
 ```
 
-All data sets needed to replicate the analysis are provided in the `data` folder in the repository. For updated data for future analysis of crime, please check out the [Chicago Data Portal for crime.](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
+All data sets needed to replicate the analysis are provided in the `data_collection` folder in the repository. For updated data for future analysis of crime, please check out the [Chicago Data Portal for crime.](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
