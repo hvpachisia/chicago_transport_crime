@@ -9,7 +9,7 @@ Welcome to the Chicago Transport and Crime Analysis repository. This project bri
 
 - **Objective**: To evaluate the impact of UChicago's free Lyft program on student travel behavior.
 - **Technologies Used**: GCP, PySpark, Big Data, Python.
-- **Key Skills**: Big data processing, exploratory data analysis (EDA), supervised and unsupervised machine learning.
+- **Key Skills**: Big data processing, exploratory data analysis (EDA), supervised (linear regression) and unsupervised machine learning (clustering).
 
 2. Chicago Crime Analysis
 
@@ -17,7 +17,7 @@ Welcome to the Chicago Transport and Crime Analysis repository. This project bri
 
 - **Technologies Used**: PySpark, AWS.
 
-- **Key Skills**: Big data processing, cloud computing.
+- **Key Skills**: Big data processing, cloud computing, machine learning (random forest, linear regression)
 
 3. Visualizing University of Chicago Crime and Campus Transportation
 
