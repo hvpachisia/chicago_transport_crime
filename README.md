@@ -194,3 +194,14 @@ library(rsconnect)
 ```
 
 All data sets needed to replicate the analysis are provided in the `data_collection` folder in the repository. For updated data for future analysis of crime, please check out the [Chicago Data Portal for crime.](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
+
+## Contact Me
+
+I’m always open to discussing my projects, potential collaborations, or opportunities. Feel free to reach out to me through the following channels:
+
+- **Email**: [Email](mailto:hvpachisia@gmail.com)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/hvpachisia)
+- **GitHub**: [GitHub Profile](https://github.com/hvpachisia)
+- **Portfolio**: [Personal Website](https://harshpachisia.com) 
+
+Thank you for your interest in my work!
