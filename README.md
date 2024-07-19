@@ -8,7 +8,9 @@ Welcome to the Chicago Transport and Crime Analysis repository. This project bri
 1. UChicago Lyft Program Analysis
 
 - **Objective**: To evaluate the impact of UChicago's free Lyft program on student travel behavior.
+ 
 - **Technologies Used**: GCP, PySpark, Big Data, Python.
+ 
 - **Key Skills**: Big data processing, exploratory data analysis (EDA), supervised (linear regression) and unsupervised machine learning (clustering).
 
 2. Chicago Crime Analysis
