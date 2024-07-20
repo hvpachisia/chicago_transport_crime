@@ -1,4 +1,4 @@
-# Chicago Transport & Crime: An in-depth analysis
+# Rides to Safety: Chicago Crime, UChicago, and the Lyft Smart Ride Program
 
 ## Introduction
 Welcome to the Chicago Transport and Crime Analysis repository. This project brings together three comprehensive studies that analyze various aspects of transport and crime in Chicago. Each study is designed to showcase different technical skills and tools, ranging from big data processing and machine learning to data visualization and interactive application development.
