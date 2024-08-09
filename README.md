@@ -85,7 +85,7 @@ Showcase the impact of the Lyft program on daily ridership counts within the pro
 - Lyft Ride Smart amplify student habits - similar destinations to campus, shopping, and apartments with higher frequency and more trips taken at night
 - Rides are not for superfluous spending - they facilitate necessary student trips in a wider range of times with increased safety. This is clarified with our clustering analysis
 
-## Analysis Crime in Chicago
+## Analysis of Crime in Chicago
 
 ### Overview
 
@@ -96,11 +96,13 @@ The goal of this project is to analyze reported incidents of crime in the City o
 Crime is a complex social phenomenon that affects the quality of life and economic development of communities. Understanding crime patterns is crucial for law enforcement and community organizations to effectively combat and prevent crime. This project focuses on identifying trends and hotspots of crime in Chicago, exploring socio-economic factors that may influence crime rates, and evaluating the impact of external factors like the COVID-19 pandemic on criminal activities. The insights gained can inform targeted interventions and public safety strategies, making them more data-driven and efficient.
 
 ### Why large-scale computing methods?
+
 The volume, variety, and complexity of crime data necessitate the use of scalable computing methods. Traditional data processing tools are insufficient for handling datasets of this magnitude with the required speed and efficiency. Large-scale computing methods allow for the management and analysis of big data in a way that is both time-efficient and computationally feasible. These methods enabled me to perform extensive data cleaning, integration, exploratory data analysis (EDA), and complex model training across the crimes dataset which was too big for my laptop RAM to handle, making it a good use case for large-scale computing.
 
 ### Large scale methods employed
 
 #### Data integration and management
+
 I used PySpark, an interface for Apache Spark, which allows for fast cluster computing and is particularly adept at processing large datasets. The initial stage involved using a Python script to upload multiple datasets into an AWS S3 bucket. These datasets included:
 
 1. Crime data from the Chicago Police Department
@@ -111,6 +113,7 @@ I used PySpark, an interface for Apache Spark, which allows for fast cluster com
 This integration allows for a holistic analysis that considers various potential influences on crime rates. I also created a teardown script to delete the data following the completion of the analysis.
 
 #### Exploratory Data Analysis (EDA)
+
 After cleaning and integrating the data, I conducted extensive EDA using PySpark to explore trends over time, differences between community areas, and the prevalence of different types of crimes. Notably:
 
 - Crime rates have generally decreased over time, with significant drops during the COVID-19 pandemic.
@@ -124,7 +127,7 @@ After cleaning and integrating the data, I conducted extensive EDA using PySpark
 
 #### COVID-19 Impact Analysis
 
-I then wanted to understand the effects of the COVID-19 pandemic on crime rates in Chicago. The integration of COVID-19 case data allowed for this exploration of how the pandemic influenced crime dynamics across different community areas and crime types. I found that there was a sharp decline in overall crime rates during the early stages of the pandemic, likely due to lockdown measures and reduced public presence. However, the impact varied by type of crime:
+I also wanted to understand the effects of the COVID-19 pandemic on crime rates in Chicago. The integration of COVID-19 case data allowed for this exploration of how the pandemic influenced crime dynamics across different community areas and crime types. I found that there was a sharp decline in overall crime rates during the early stages of the pandemic, likely due to lockdown measures and reduced public presence. However, the impact varied by type of crime:
 
 ![image](https://github.com/macs30123-s24/final-project-chicago-crime/assets/30920386/5afd843b-6c27-489b-b172-eb5bac48d050)
 
@@ -135,6 +138,7 @@ We can see a clear effect of COVID-19 on monthly trends in the 10 top crime type
 We see a very clear relationship between number of crimes and COVID cases in each neighborhood. If the number of crimes increases, the number of cases seems to increase as well.
 
 This aspect of the analysis highlights the importance of considering public health crises in crime trend analysis and the potential for these methods to inform responses to future emergencies. 
+
 #### Machine Learning Models
 
 The models were created in PySpark partitioning the data into 15 partitions in an EMR cluster. 
@@ -158,9 +162,7 @@ The use of PySpark and AWS EMR (Elastic MapReduce) cluster with 15 partitions en
 
 ## Rides to Safety: Scrutinizing Crime in Hyde Park and Campus Transits
 
-### Project Description
-
-This project aims to analyze and understand the safety concerns and effectiveness of transportation options provided by the University of Chicago in the Hyde Park neighborhood. The neighborhood has a reputation of being unsafe due to prevalent criminal activities. The University of Chicago has taken extensive measures to enhance student safety, including establishing one of America's largest private security forces and initiating safety-oriented transportation services such as the UGO shuttle service and the UChicago Free Lyft Program. Despite these initiatives, the area has seen a worrying rise in crime, including several student fatalities and numerous robberies. This project seeks to investigate the changes in crime rates over time in Hyde Park and critically evaluate the effectiveness of the university's safety transportation services in reducing outdoor crime.
+This subproject aims to analyze and understand the safety concerns and effectiveness of transportation options provided by the University of Chicago in the Hyde Park neighborhood. The neighborhood has a reputation of being unsafe due to prevalent criminal activities. The University of Chicago has taken extensive measures to enhance student safety, including establishing one of America's largest private security forces and initiating safety-oriented transportation services such as the UGO shuttle service and the UChicago Free Lyft Program. Despite these initiatives, the area has seen a worrying rise in crime, including several student fatalities and numerous robberies. This project seeks to investigate the changes in crime rates over time in Hyde Park and critically evaluate the effectiveness of the university's safety transportation services in reducing outdoor crime.
 
 The investigation in this project is twofold. Firstly, it examines the historical trend of crime rates in Hyde Park, providing insights into how criminal activities have evolved over time. This includes a detailed analysis of different types of crimes, identifying temporal trends, daily peaks, and specific locations prone to criminal incidents. Secondly, the project evaluates the university's safety transit options, questioning their effectiveness in enhancing student safety. The analysis is based on the hypothesis that these transit options may not be significantly improving safety. To facilitate a comprehensive and interactive exploration of the data, the project includes an RShiny article and a standalone Shiny application. These outputs allow users to engage with the data, explore geographical hotspots of crime, and possibly unearth further insights into the dynamics of crime and safety in Hyde Park.
 
@@ -168,7 +170,7 @@ Final Article: https://harshpachisia.shinyapps.io/uchicago-crime-notebook/
 
 Shiny Application: https://harshpachisia.shinyapps.io/uchicago-crimes-story/
 
-### Instructions for running the project
+### Instructions for running this subproject
 
 #### Packages and Data needed
 
